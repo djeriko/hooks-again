@@ -5,12 +5,12 @@ import { UserContext, ChannelContext } from '../App'
 function ComponentE() {
 
   const user = useContext(UserContext)
-  const chanenel = useContext(ChannelContext)
+  const channel = useContext(ChannelContext)
 
   return (
     <div>
      <ComponentF/> 
-     {user} - {chanenel}
+     {user} - {channel}
     </div>
   )
 }
