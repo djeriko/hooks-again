@@ -1,11 +1,11 @@
 import React, { useReducer } from "react"
 import "./App.css"
-import ParentComponent from './callbackComponents/ParentComponent.js'
+import Counter from "./memoComponents/Counter"
 
 function App() {
   return (
     <div className="App">
-      <ParentComponent/>
+      <Counter/>
     </div>
   )
 }
