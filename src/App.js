@@ -1,11 +1,15 @@
-import React, { useReducer } from "react"
+import React from "react"
 import "./App.css"
-import Counter from "./memoComponents/Counter"
+import FocusInput from "./refComponents/FocusInput"
+import ClassTimer from "./refComponents/ClassTimer"
+import HookTimer from "./refComponents/HookTimer"
 
 function App() {
   return (
     <div className="App">
-      <Counter/>
+      {/* <FocusInput/> */}
+      <ClassTimer/>
+      <HookTimer/>
     </div>
   )
 }
